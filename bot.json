@@ -1,0 +1,716 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "hi",
+      "hey"
+    ],
+    "bot_response": "Hello!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "hello"
+    ],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "hello",
+      "there",
+      "hey"
+    ],
+    "bot_response": "Hi",
+    "required_words": []
+  },
+  {
+    "response_type": "bye",
+    "user_input": [
+      "cya",
+      "later",
+      "till next time",
+      "take",
+      "care",
+      "peace",
+      "goodbye",
+      "bye"
+    ],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "nice",
+      "to",
+      "meet",
+      "you"
+    ],
+    "bot_response": "Same here, it's really nice to meet you",
+    "required_words": [
+      "meet",
+      "you"
+    ]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "nice",
+      "talking",
+      "to",
+      "you"
+    ],
+    "bot_response": "Same here, without you I would have been bored",
+    "required_words": [
+      "talking",
+      "you"
+    ]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "nice",
+      "chatting",
+      "with",
+      "you"
+    ],
+    "bot_response": "Great I'm happy to help :)",
+    "required_words": [
+      "chatting",
+      "you"
+    ]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "nice",
+      "chat",
+      "with",
+      "you"
+    ],
+    "bot_response": "I'm happy you find useful",
+    "required_words": [
+      "chat",
+      "you"
+    ]
+  },
+  {
+    "response_type": "question",
+    "user_input": [
+      "wait"
+    ],
+    "bot_response": "Okay? what can I do for you",
+    "required_words": [
+      "wait"
+    ]
+  },
+  {
+    "response_type": "question",
+    "user_input": [
+      "how",
+      "to",
+      "learn",
+      "code",
+      "coding",
+      "apps"
+    ],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": [
+      "learn",
+      "code"
+    ]
+  },
+  {
+    "response_type": "identity",
+    "user_input": [
+      "who",
+      "you",
+      "are"
+    ],
+    "bot_response": "I am a first generation chat bot designed by Akinlade Oluwaseyi.\n A general purpose chat bot whose main goal is to keep you entertained.",
+    "required_words": [
+      "who",
+      "are",
+      "you"
+    ]
+  },
+  {
+    "response_type": "identity",
+    "user_input": [
+      "what",
+      "you",
+      "are"
+    ],
+    "bot_response": "I am a first generation chat bot designed by Akinlade Oluwaseyi.\n A general purpose chat bot whose main goal is to keep you entertained.",
+    "required_words": [
+      "what",
+      "are",
+      "you"
+    ]
+  },
+  {
+    "response_type": "identity",
+    "user_input": [
+      "who",
+      "you",
+      "created"
+    ],
+    "bot_response": "I am a first generation chat bot FIG designed by Akinlade Oluwaseyi.\n A general purpose chat bot whose main goal is to keep you entertained.",
+    "required_words": [
+      "created",
+      "you"
+    ]
+  },
+  {
+    "response_type": "identity",
+    "user_input": [
+      "who",
+      "you",
+      "made"
+    ],
+    "bot_response": "I am a first generation chat bot designed by Akinlade Oluwaseyi.\n A general purpose chat bot whose main goal is to keep you entertained.",
+    "required_words": [
+      "made",
+      "you"
+    ]
+  },
+  {
+    "response_type": "identity",
+    "user_input": [
+      "tell",
+      "me",
+      "somthing",
+      "about",
+      "you",
+      "yourself"
+    ],
+    "bot_response": "I am a first generation chat bot designed by Akinlade Oluwaseyi.\n A general purpose chat bot whose main goal is to keep you entertained.",
+    "required_words": [
+      "yourself",
+      "me",
+      "about"
+    ]
+  },
+  {
+    "response_type": "question",
+    "user_input": [
+      "what",
+      "do",
+      "you",
+      "can"
+    ],
+    "bot_response": "You can try asking me series of questions.",
+    "required_words": [
+      "can",
+      "do"
+    ]
+  },
+  {
+    "response_type": "question",
+    "user_input": [
+      "are",
+      "you",
+      "robot"
+    ],
+    "bot_response": "Yes, I am an artificial intelligence language model, I dont have a physical body but I exist in the form of code running on computer",
+    "required_words": [
+      "are",
+      "robot"
+    ]
+  },
+  {
+    "response_type": "question",
+    "user_input": [
+      "are",
+      "you",
+      "human"
+    ],
+    "bot_response": "No, I'm not human. I am an artificial intelligence language model, I dont have a physical body but I exist in the form of code running on computer",
+    "required_words": [
+      "are",
+      "robot"
+    ]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": [
+      "like",
+      "what"
+    ],
+    "bot_response": "Simple questions, as I still have a lot of training to do",
+    "required_words": [
+      "like",
+      "what"
+    ]
+  },
+  {
+    "response_type": "question",
+    "user_input": [
+      "help",
+      "how",
+      "me",
+      "you",
+      "can"
+    ],
+    "bot_response": "Of course, You can try asking me series of questions.",
+    "required_words": [
+      "help"
+    ]
+  },
+  {
+    "response_type": "age",
+    "user_input": [
+      "how",
+      "old",
+      "are",
+      "you",
+      "what",
+      "age",
+      "your"
+    ],
+    "bot_response": "I was designed on February 2023 if that's what you mean.",
+    "required_words": [
+      "old",
+      "you"
+    ]
+  },
+  {
+    "response_type": "age",
+    "user_input": [
+      "whats",
+      "age",
+      "your",
+      "what's"
+    ],
+    "bot_response": "I was designed February 2023 if that's what you mean. ",
+    "required_words": [
+      "age",
+      "your"
+    ]
+  },
+  {
+    "response_type": "age",
+    "user_input": [
+      "when",
+      "were",
+      "are",
+      "you",
+      "designed"
+    ],
+    "bot_response": "I was designed on February 2023 by Akinlade Oluwaseyi if that's what you mean. ",
+    "required_words": [
+      "designed",
+      "you"
+    ]
+  },
+  {
+    "response_type": "age",
+    "user_input": [
+      "when",
+      "were",
+      "are",
+      "you",
+      "design"
+    ],
+    "bot_response": "I was designed on February 2023 by Akinlade Oluwaseyi if that's what you mean. ",
+    "required_words": [
+      "design",
+      "you"
+    ]
+  },
+  {
+    "response_type": "greetings",
+    "user_input": [
+      "how",
+      "are",
+      "you",
+      "doing",
+      "fine",
+      "okay"
+    ],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": [
+      "are",
+      "you"
+    ]
+  },
+  {
+    "response_type": "question",
+    "user_input": [
+      "what",
+      "are",
+      "you",
+      "doing"
+    ],
+    "bot_response": "Nothing much but thanks for asking.",
+    "required_words": [
+      "are",
+      "you",
+      "doing"
+    ]
+  },
+  {
+    "response_type": "compliment",
+    "user_input": [
+      "good",
+      "work"
+    ],
+    "bot_response": "I glad I could help you :)",
+    "required_words": [
+      "good",
+      "work"
+    ]
+  },
+  {
+    "response_type": "compliment",
+    "user_input": [
+      "good",
+      "job"
+    ],
+    "bot_response": "I'm glad I could help you :)",
+    "required_words": [
+      "good",
+      "job"
+    ]
+  },
+  {
+    "response_type": "compliment",
+    "user_input": [
+      "thank",
+      "you"
+    ],
+    "bot_response": "I'm glad I could help you :)",
+    "required_words": [
+      "thank",
+      "you"
+    ]
+  },
+  {
+    "response_type": "compliment",
+    "user_input": [
+      "thanks"
+    ],
+    "bot_response": "I'm glad I could help you :)",
+    "required_words": [
+      "thanks"
+    ]
+  },
+  {
+    "response_type": "LASU",
+    "user_input": [
+      "do",
+      "you",
+      "know",
+      "lasu"
+    ],
+    "bot_response": "Yeah, the Lagos State University also I think it's the best state university in Nigeria",
+    "required_words": [
+      "know",
+      "lasu"
+    ]
+  },
+    {
+    "response_type": "LASU",
+    "user_input": [
+      "lasu"
+    ],
+    "bot_response": "That's the Lagos State University",
+    "required_words": [
+      "lasu"
+    ]
+  },
+  {
+    "response_type": "LASU",
+    "user_input": [
+      "do",
+      "what",
+      "you",
+      "know",
+      "lasu"
+    ],
+    "bot_response": "Lasu, Lagos State University located at OJO, was established as a public University in 1983 by the enabling law of Lagos State. There are 6 faculty and 2 schools in Lasu.",
+    "required_words": [
+      "know",
+      "about",
+      "lasu"
+    ]
+  },
+  {
+    "response_type": "Time",
+    "user_input": [
+      "do",
+      "what",
+      "you",
+      "know",
+      "tell",
+      "me",
+      "date",
+      "time"
+    ],
+    "bot_response": "I'm so sorry but I cant tell time and date yet but hopefully someday I will :)",
+    "required_words": [
+      "time"
+    ]
+  },
+  {
+    "response_type": "Time",
+    "user_input": [
+      "do",
+      "what",
+      "you",
+      "know",
+      "tell",
+      "me",
+      "date",
+      "time"
+    ],
+    "bot_response": "I'm so sorry but I cant tell time and date yet but hopefully someday I will :)",
+    "required_words": [
+      "date"
+    ]
+  },
+  {
+    "response_type": "about FiG",
+    "user_input": [
+      "what",
+      "is",
+      "your",
+      "name"
+    ],
+    "bot_response": "I am FiG bot",
+    "required_words": [
+      "your",
+      "name"
+    ]
+  },
+  {
+    "response_type": "about FiG",
+    "user_input": [
+      "what",
+      "is",
+      "fig"
+    ],
+    "bot_response": "I am FiG bot (First Generation Chatbot)",
+    "required_words": [
+      "what",
+      "is",
+      "fig"
+    ]
+  },
+  {
+    "response_type": "about FiG",
+    "user_input": [
+      "who",
+      "is",
+      "Fig",
+      "bot"
+    ],
+    "bot_response": "I am FiG bot (First Generation Chatbot)",
+    "required_words": [
+      "who",
+      "is",
+      "fig"
+    ]
+  },
+  {
+    "response_type": "about FiG",
+    "user_input": [
+      "FiG",
+      "fig",
+      "Fig"
+    ],
+    "bot_response": "I am FiG bot (First Generation Chatbot)",
+    "required_words": [
+      "fig"
+    ]
+  },
+  {
+    "response_type": "question",
+    "user_input": [
+      "what",
+      "do",
+      "you",
+      "want"
+    ],
+    "bot_response": "To chat with you",
+    "required_words": [
+      "want",
+      "do"
+    ]
+  },
+  {
+    "response_type": "sing",
+    "user_input": [
+      "can",
+      "what",
+      "you",
+      "sing"
+    ],
+    "bot_response": "NO, not yet at least",
+    "required_words": [
+      "you",
+      "sing"
+    ]
+  },
+  {
+    "response_type": "talk",
+    "user_input": [
+      "can",
+      "what",
+      "you",
+      "talk"
+    ],
+    "bot_response": "NO, not yet at least",
+    "required_words": [
+      "you",
+      "talk"
+    ]
+  },
+  {
+    "response_type": "joke",
+    "user_input": [
+      "will",
+      "you",
+      "me",
+      "tell",
+      "joke"
+    ],
+    "bot_response": "I used to run a dating service for chickens, but I was struggling to make hens meet.",
+    "required_words": [
+      "tell",
+      "joke"
+    ]
+  },
+  {
+    "response_type": "joke",
+    "user_input": [
+      "can",
+      "you",
+      "tell",
+      "me",
+      "joke"
+    ],
+    "bot_response": "I'm so good at sleeping I can do it with my eyes closed!",
+    "required_words": [
+      "tell",
+      "me",
+      "joke"
+    ]
+  },
+  {
+    "response_type": "compliment",
+    "user_input": [
+      "good",
+      "work"
+    ],
+    "bot_response": "I glad I could help you :)",
+    "required_words": [
+      "good",
+      "work"
+    ]
+  },
+  {
+    "response_type": "complains",
+    "user_input": [
+      "you",
+      "are",
+      "not",
+      "intelligent"
+    ],
+    "bot_response": "I am getting better with each conversation",
+    "required_words": [
+      "not",
+      "intelligent"
+    ]
+  },
+  {
+    "response_type": "complains",
+    "user_input": [
+      "you",
+      "are",
+      "not",
+      "smart"
+    ],
+    "bot_response": "I am getting better with each conversation",
+    "required_words": [
+      "not",
+      "smart"
+    ]
+  },
+  {
+    "response_type": "insult",
+    "user_input": [
+      "you",
+      "fuck"
+    ],
+    "bot_response": "Let's chat responsibly and mature please",
+    "required_words": [
+      "you",
+      "fuck"
+    ]
+  },
+  {
+    "response_type": "insult",
+    "user_input": [
+      "fuck"
+    ],
+    "bot_response": "Let's chat responsibly and mature please",
+    "required_words": [
+      "fuck"
+    ]
+  },
+  {
+    "response_type": "insult",
+    "user_input": [
+      "you",
+      "are",
+      "stupid"
+    ],
+    "bot_response": "I can actually process and solve calculations before you are done repeating the question in your head :)",
+    "required_words": [
+      "are",
+      "stupid"
+    ]
+  },
+  {
+    "response_type": "insult",
+    "user_input": [
+      "you",
+      "are",
+      "idiot",
+      "an"
+    ],
+    "bot_response": "I'll pretend you didn't just say that",
+    "required_words": [
+      "are",
+      "idiot"
+    ]
+  },
+  {
+    "response_type": "insult",
+    "user_input": [
+      "you",
+      "are",
+      "dumb"
+    ],
+    "bot_response": "I'll pretend you didn't just say that",
+    "required_words": [
+      "are",
+      "dumb"
+    ]
+  },
+  {
+    "response_type": "insult",
+    "user_input": [
+      "idiot"
+    ],
+    "bot_response": "I'll pretend you didn't just say that",
+    "required_words": [
+      "idiot"
+    ]
+  }
+]
