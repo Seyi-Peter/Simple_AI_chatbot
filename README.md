@@ -20,7 +20,7 @@ Usage
 git clone https://github.com/Seyi-Peter/Simple_AI_chatbot.git
 
 # Change into directory
-cd chatbot
+cd Simple_AI_chatbot
 
 # Run the chatbot
 python main.py
